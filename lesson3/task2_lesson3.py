@@ -4,7 +4,7 @@
 # Осуществить вывод данных о пользователе одной строкой.
 
 def my_func(name, surname, birth_year, city, email, tel):
-    return
+    return f'Имя: {name} \nФамилия: {surname} \nДата рождения: {birth_year} \nГород: {city} \nE-mail: {email} \nТелефон: {tel}'
 
 
 print(my_func(name=input('Введите имя: '), surname=input('Введите фамилию: '),

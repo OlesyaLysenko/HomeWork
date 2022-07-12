@@ -3,10 +3,10 @@
 # возвращает сумму наибольших двух аргументов.
 
 def my_func(a, b, c):
-    foi
-    i in range(my_func)
-    print(sum(max(my_func)))
-    return
+    print(f'Сумма наибольших двух аргументов: {a + b + c - min(a, b, c)}')
 
-
-print(int(input('Введите 3 числа: ')))
+my_func(
+    a = int(input("ВВедите первое число: ")),
+    b = int(input("ВВедите первое число: ")),
+    c = int(input("ВВедите первое число: "))
+    )
